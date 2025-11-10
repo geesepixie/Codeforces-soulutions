@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std ;
+
+int main() {
+    ios::sync_with_stdio(false) ;
+    cin.tie(nullptr) ;
+
+    int t ;
+    cin >> t ;   // Number of test cases
+
+    while ( t-- ) {
+        int n , k ;
+        cin >> n >> k ;  // Input n and k
+
+        // Try all odd numbers first
+        if ( n >= k && n % 2 == k % 2 ) {
+            cout << "YES\n" ;
+            for ( int i = 0 ; i < k - 1 ; ++i ) cout << 1 << " " ;
+            cout << n - ( k - 1 ) << "\n" ;
+        }
+        // Try all even numbers
+        else if ( n >= 2 * k && n % 2 == 0 ) {
+            cout << "YES\n" ;
+            for ( int i = 0 ; i < k - 1 ; ++i ) cout << 2 << " " ;
+            cout << n - 2 * ( k - 1 ) << "\n" ;
+        }
+        // Impossible case
+        else {
+            cout << "NO\n" ;
+        }
+    }
+}
