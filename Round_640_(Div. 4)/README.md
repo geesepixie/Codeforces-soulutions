@@ -13,8 +13,7 @@ Each non-zero digit produces exactly one term, ensuring the minimal count.
 O(log n) per test case.
 
 ------------------------------------
-## 2. B_Same_Parity_Summands
-1. Sum_of_Same_Parity_Numbers
+### 2. B_Same_Parity_Summands
 **Description:**
 Represent n as a sum of k positive integers all of the same *parity* (all odd or all even).
 
