@@ -1,4 +1,4 @@
-# Codeforces-soulutions
+# Codeforces-solutions
 This repository serves both as a personal archive and as a ledger of progress in competitive programming.
 
 # Notes
