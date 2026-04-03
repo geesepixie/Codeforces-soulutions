@@ -33,7 +33,7 @@ O(n) per test case for counting occurrences.
 
 ---
 
-### 3. **C_OddEvenIncrements**
+### 3. **C_OddEven_Increments**
 
 **Description:**   
 Given an array, you can repeatedly add +1 to all elements at odd indices or all elements at even indices. Determine if it’s possible to make all elements have the same parity.
