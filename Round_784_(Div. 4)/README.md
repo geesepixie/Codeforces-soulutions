@@ -32,3 +32,22 @@ Print that element if found, otherwise print -1.
 O(n) per test case for counting occurrences.
 
 ---
+
+### 3. **C_OddEvenIncrements**
+
+**Description:**   
+Given an array, you can repeatedly add +1 to all elements at odd indices or all elements at even indices. Determine if it’s possible to make all elements have the same parity.
+
+**Approach:**   
+Observe that elements at odd indices always change together, and elements at even indices always change together.
+So, parity within each group must already be consistent.
+Check:   
+- all odd-index elements have the same parity   
+- all even-index elements have the same parity
+
+If both hold → `YES`, else → `NO`.
+
+**Complexity:**   
+O(n) per test case.
+
+---
