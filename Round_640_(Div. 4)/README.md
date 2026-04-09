@@ -12,6 +12,9 @@ Each non-zero digit produces exactly one term, ensuring the minimal count.
 **Complexity:**  
 O(log n) per test case.
 
+**Problem tags:**
+`implementation`, `math`, `*800`
+
 ------------------------------------
 ### 2. B_Same_Parity_Summands
 **Description:**  
