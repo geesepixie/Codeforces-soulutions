@@ -26,6 +26,9 @@ A sum of `k` numbers can all be odd if `n` is at least `k` *and* has the same pa
 **Complexity:**  
 O(k) per test case.
 
+**Problem tags:**
+`constructive algorithms`, `math`, `*1200`
+
 ------------------------------------
 ### 3. C_K_th_Not_Divisible_by_n
 **Description:**
