@@ -51,3 +51,16 @@ If both hold → `YES`, else → `NO`.
 O(n) per test case.
 
 ---
+
+### **4. D_Colorful_Stamp**
+
+**Description:**   
+You are given a row of cells colored W, R, or B. Initially, all cells were white. You can use a stamp that colors two adjacent cells, making one R and the other B (in any order). Determine whether the final configuration can be obtained.
+
+**Approach:**   
+Split the string into segments separated by W. For each segment, check if it has length at least 2 and contains both R and B. If any segment fails this condition, print `NO`. Otherwise, print `YES`.
+
+**Complexity:**
+O(n) per test case.
+
+---
