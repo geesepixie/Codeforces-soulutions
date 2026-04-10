@@ -44,3 +44,8 @@ This lets us jump directly to the result without generating the sequence.
 
 **Complexity:**  
 O(1) per test case.
+
+**Problem tags:**
+`binary search`, `math`, `*1200`
+
+---
