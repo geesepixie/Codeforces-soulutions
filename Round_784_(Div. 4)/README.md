@@ -15,6 +15,9 @@ Check the rating against the division thresholds from highest to lowest. Output 
 **Complexity:**  
 O(1) per test case.
 
+**Problem tags**
+`implementation`, `*800`
+
 ------------------------------------
 
 ### 2. **B_Triple**
